@@ -7,7 +7,7 @@ export default function TabLayout() {
 
   return (
     <>
-    <Header image={require("../../assets/images/react-logo.png")}/>
+    <Header image={require("../../assets/images/logo_dragonballapi.webp")}/>
     <Tabs>
       <Tabs.Screen name='index' options={{headerShown: false, tabBarIcon: () => (<Text>❤</Text>)}}></Tabs.Screen>
       <Tabs.Screen name='explore' options={{headerShown: false, tabBarIcon: () => (<Text>💕</Text>)}}></Tabs.Screen>

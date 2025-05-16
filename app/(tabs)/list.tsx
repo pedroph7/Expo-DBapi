@@ -1,6 +1,5 @@
 
 import { Text, View, StyleSheet, SafeAreaView, FlatList } from "react-native"
-// import dataErrado from "@/constants/dataErrado.json"
 import data from "@/constants/data"
 import { Item } from "@/components/item"
 
